@@ -57,6 +57,9 @@ body {
 }
 
 .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     max-width: 1000px;
     text-align: center;
@@ -103,6 +106,26 @@ body {
 }
 
 .projects-item {
+    
+}
+
+.contact-container {
+    background:#29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -178,7 +201,7 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
     border: 2px solid #666666;
 }
@@ -287,6 +310,8 @@ footer {
 .aboutme-photo {
     width: 100%;
     max-width: 320px;
+    height: 25%;
+    border-radius: 300px;
 }
 
 
